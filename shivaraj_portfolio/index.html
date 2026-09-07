@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shivaraj Y - ECE, VLSI, RTL and Physical Design portfolio" />
+  <title>Shivaraj Y | VLSI & ECE Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="site-header" id="siteHeader">
+    <nav class="nav container">
+      <a href="#home" class="brand">&lt;Shivaraj<span>/&gt;</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#publications" class="nav-link">Research</a>
+        <a href="#achievements" class="nav-link">Achievements</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Shivaraj Y</h1>
+          <h2>Electronics & Communication Engineer</h2>
+
+          <div class="typing-line">
+            <span>I work with&nbsp;</span>
+            <span class="typing-text" id="typingText"></span>
+            <span class="cursor">|</span>
+          </div>
+
+          <p class="hero-text">
+            VLSI-focused engineering student with hands-on exposure to RTL design,
+            ASIC flow, embedded systems, IoT and semiconductor technologies.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore Projects</a>
+            <a class="btn btn-secondary" href="assets/resume.pdf" download>Download Resume</a>
+          </div>
+
+          <div class="hero-links">
+            <a href="mailto:shivulpr2004@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/shivaraj-y" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-orbit orbit-a"></div>
+          <div class="profile-orbit orbit-b"></div>
+          <div class="profile-photo-wrapper" aria-label="Profile photo of Shivaraj Y">
+            <div class="vlsi-ring ring-1"></div>
+            <div class="vlsi-ring ring-2"></div>
+            <div class="circuit-arc arc-1"></div>
+            <div class="circuit-arc arc-2"></div>
+
+            <div class="profile-photo-frame">
+              <img src="assets/profile.jpg" alt="Shivaraj Y" class="profile-photo" />
+            </div>
+
+            <span class="chip-dot dot-1"></span>
+            <span class="chip-dot dot-2"></span>
+            <span class="chip-dot dot-3"></span>
+            <span class="chip-dot dot-4"></span>
+          </div>
+
+          <div class="floating-tag tag-1">Verilog</div>
+          <div class="floating-tag tag-2">SystemVerilog</div>
+          <div class="floating-tag tag-3">Physical Design</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>Engineering with a semiconductor focus</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Career Objective</h3>
+            <p>
+              Motivated Electronics and Communication Engineering student with a strong
+              foundation in VLSI design, digital electronics, Verilog/SystemVerilog and
+              semiconductor concepts. Interested in entry-level opportunities in Physical
+              Design or RTL Verification.
+            </p>
+
+            <div class="stats">
+              <div class="stat">
+                <strong data-count="7.67" data-decimal="true">0</strong>
+                <span>CGPA</span>
+              </div>
+              <div class="stat">
+                <strong data-count="5">0</strong>
+                <span>Projects</span>
+              </div>
+              <div class="stat">
+                <strong data-count="2">0</strong>
+                <span>Publications</span>
+              </div>
+              <div class="stat">
+                <strong data-count="3">0</strong>
+                <span>Major Wins</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass-card reveal">
+            <h3>Education</h3>
+
+            <div class="timeline-row">
+              <span class="timeline-year">2023–2027</span>
+              <div>
+                <h4>B.E. Electronics & Communication Engineering</h4>
+                <p>Gopalan College of Engineering and Management</p>
+                <b>CGPA: 7.67</b>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="timeline-year">2021–2023</span>
+              <div>
+                <h4>Pre-University Course — PCMC</h4>
+                <p>New Sri Chaitanya P.U. College</p>
+                <b>77%</b>
+              </div>
+            </div>
+
+            <div class="timeline-row">
+              <span class="timeline-year">2020–2021</span>
+              <div>
+                <h4>SSLC</h4>
+                <p>Vidya Residential English Medium High School</p>
+                <b>87%</b>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">TECHNICAL STACK</p>
+          <h2>Skills & tools</h2>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skill-groups reveal">
+            <article class="skill-card">
+              <span>◈</span>
+              <h3>VLSI & ASIC</h3>
+              <p>Digital Electronics</p>
+              <p>CMOS Fundamentals</p>
+              <p>ASIC Design Flow</p>
+            </article>
+
+            <article class="skill-card">
+              <span>{ }</span>
+              <h3>HDL</h3>
+              <p>Verilog</p>
+              <p>SystemVerilog</p>
+            </article>
+
+            <article class="skill-card">
+              <span>⚙</span>
+              <h3>EDA Tools</h3>
+              <p>Cadence Virtuoso</p>
+              <p>NI Multisim</p>
+              <p>GNU Octave</p>
+            </article>
+
+            <article class="skill-card">
+              <span>⌘</span>
+              <h3>Programming</h3>
+              <p>C / C++</p>
+              <p>Python</p>
+              <p>MATLAB</p>
+              <p>Arduino IDE</p>
+            </article>
+          </div>
+
+          <div class="skill-bars glass-card reveal">
+            <h3>Focus Areas</h3>
+
+            <div class="skill-bar" data-level="88">
+              <div class="skill-label"><span>RTL / Verilog</span><b>88%</b></div>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-level="82">
+              <div class="skill-label"><span>ASIC Design Flow</span><b>82%</b></div>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-level="76">
+              <div class="skill-label"><span>Embedded / IoT</span><b>76%</b></div>
+              <div class="bar"><span></span></div>
+            </div>
+
+            <div class="skill-bar" data-level="72">
+              <div class="skill-label"><span>Programming</span><b>72%</b></div>
+              <div class="bar"><span></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">FEATURED WORK</p>
+          <h2>Projects</h2>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="vlsi">VLSI</button>
+          <button class="filter-btn" data-filter="iot">IoT</button>
+          <button class="filter-btn" data-filter="embedded">Embedded</button>
+          <button class="filter-btn" data-filter="power">Power</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="vlsi">
+            <span class="project-index">01</span>
+            <span class="project-tag">VLSI</span>
+            <h3>SRAM Memory RTL → GDS Flow</h3>
+            <p>Implemented the SRAM memory design flow from RTL coding through GDSII generation.</p>
+            <div class="tech-row"><span>Verilog</span><span>ASIC</span><span>Physical Design</span></div>
+            <button class="text-btn project-open"
+              data-title="SRAM Memory RTL → GDS Flow"
+              data-category="VLSI / ASIC"
+              data-details="Worked across RTL design, synthesis, floorplanning, placement, clock tree synthesis, routing and physical verification. The project also involved timing, area and power analysis.">
+              View details →
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-category="embedded iot">
+            <span class="project-index">02</span>
+            <span class="project-tag">AUTOMATION</span>
+            <h3>Smart Automated Ration Dispensing Machine</h3>
+            <p>Automated dispensing system designed for accurate and efficient ration distribution.</p>
+            <div class="tech-row"><span>Sensors</span><span>Embedded</span><span>Automation</span></div>
+            <button class="text-btn project-open"
+              data-title="Smart Automated Ration Dispensing Machine"
+              data-category="Embedded / Automation"
+              data-details="Ongoing major project integrating sensors, embedded hardware and automation to reduce manual intervention and improve dispensing accuracy.">
+              View details →
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-category="iot embedded">
+            <span class="project-index">03</span>
+            <span class="project-tag">IoT</span>
+            <h3>Smart Portable Cold Box</h3>
+            <p>Portable cold-storage system with IoT-based temperature sensing and monitoring.</p>
+            <div class="tech-row"><span>IoT</span><span>Temperature</span><span>Embedded</span></div>
+            <button class="text-btn project-open"
+              data-title="IoT-Based Smart Portable Cold Box"
+              data-category="IoT / Embedded"
+              data-details="Designed a portable cold-storage system with temperature sensing and real-time monitoring using embedded systems.">
+              View details →
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-category="iot embedded">
+            <span class="project-index">04</span>
+            <span class="project-tag">IoT</span>
+            <h3>Smart Drip Irrigation System</h3>
+            <p>Automated irrigation using soil-moisture sensing for efficient water management.</p>
+            <div class="tech-row"><span>IoT</span><span>Soil Sensor</span><span>Control</span></div>
+            <button class="text-btn project-open"
+              data-title="Smart Drip Irrigation System"
+              data-category="IoT / Automation"
+              data-details="Developed an automated irrigation system using soil-moisture sensing and embedded control to reduce manual intervention.">
+              View details →
+            </button>
+          </article>
+
+          <article class="project-card reveal" data-category="power">
+            <span class="project-index">05</span>
+            <span class="project-tag">POWER</span>
+            <h3>Regulated Power Supply</h3>
+            <p>Designed a 250V AC to 5V/12V DC regulated supply during hands-on training.</p>
+            <div class="tech-row"><span>Circuit Design</span><span>Testing</span><span>Power</span></div>
+            <button class="text-btn project-open"
+              data-title="Regulated Power Supply"
+              data-category="Power Electronics"
+              data-details="Designed and implemented a 250V AC to 5V/12V DC power supply while learning component selection, testing and troubleshooting.">
+              View details →
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="vlsi-flow">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">INTERACTIVE FLOW</p>
+          <h2>RTL to GDS journey</h2>
+        </div>
+
+        <div class="flow reveal">
+          <button class="flow-step active" data-flow="RTL coding converts the design idea into synthesizable Verilog/SystemVerilog.">RTL</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Synthesis maps RTL logic into a gate-level netlist using target technology libraries.">Synthesis</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Floorplanning defines the die/core structure, macro locations and routing resources.">Floorplan</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Placement positions standard cells while targeting timing, congestion and power goals.">Placement</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Clock Tree Synthesis distributes the clock while controlling skew and latency.">CTS</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Routing connects cells and nets using available metal layers.">Routing</button>
+          <span>→</span>
+          <button class="flow-step" data-flow="Physical verification checks the layout before final GDSII generation.">GDSII</button>
+        </div>
+
+        <div class="flow-info glass-card reveal" id="flowInfo">
+          RTL coding converts the design idea into synthesizable Verilog/SystemVerilog.
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">RESEARCH</p>
+          <h2>Publications</h2>
+        </div>
+
+        <div class="publication-list">
+          <article class="publication-card reveal">
+            <span>01</span>
+            <div>
+              <h3>Augmentation of Bandwidth Reduction in Digital TV Video Payload Using Ultra-Smooth Wavelet Coding with Lifting Steps and Soft-Computing Technologies</h3>
+              <p>SSPR · Volume 6 · Issue 1 · March 2026</p>
+            </div>
+          </article>
+
+          <article class="publication-card reveal">
+            <span>02</span>
+            <div>
+              <h3>Design and Implementation of an IoT-Enabled Thermoelectric Cold Box Powered by Hybrid Charger</h3>
+              <p>SSPR · Volume 6 · Issue 1 · March 2026</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-section" id="achievements">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MILESTONES</p>
+          <h2>Achievements & activities</h2>
+        </div>
+
+        <div class="achievement-grid">
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🏆</div>
+            <h3>ISRO Robotics Challenge</h3>
+            <p>Qualified for the 1st round of the ISRO Robotics Challenge.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🥈</div>
+            <h3>TECH NEXUS 2025</h3>
+            <p>Won 2nd Prize in the Project Expo.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🥈</div>
+            <h3>GETOCS V6.0 2026</h3>
+            <p>Won 2nd Place in Paper Presentation and RC Car Race.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🤖</div>
+            <h3>WRO India 2026</h3>
+            <p>Served as a Volunteer and Organizer.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">💡</div>
+            <h3>Innovation Council</h3>
+            <p>Coordinator for innovation, technical and entrepreneurship programs.</p>
+          </article>
+
+          <article class="achievement-card reveal">
+            <div class="achievement-icon">🚀</div>
+            <h3>Tech Expos</h3>
+            <p>Participated in Yuktikalpa 2025 and AIKYA 2025.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">CERTIFICATIONS</p>
+          <h2>Continuous learning</h2>
+        </div>
+
+        <div class="cert-grid">
+          <article class="glass-card reveal">
+            <span class="cert-icon">◉</span>
+            <h3>VLSI Design Training</h3>
+            <p>ASIC RTL to GDS Flow</p>
+            <small>VLSI Minds</small>
+          </article>
+
+          <article class="glass-card reveal">
+            <span class="cert-icon">AI</span>
+            <h3>LLMs to Agentic AI Systems with HPC</h3>
+            <p>LLMs, Agentic AI and High-Performance Computing</p>
+            <small>Intel Unnati with Cadmaxx</small>
+          </article>
+
+          <article class="glass-card reveal">
+            <span class="cert-icon">μ</span>
+            <h3>MEMS Technology and Its Applications</h3>
+            <p>MEMS technology, fabrication and applications</p>
+            <small>IMAPS India</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <p class="eyebrow">GET IN TOUCH</p>
+          <h2>Let's build something innovative.</h2>
+          <p>
+            Interested in VLSI, semiconductor technology, RTL, embedded systems or engineering collaboration?
+          </p>
+
+          <div class="contact-actions">
+            <button class="btn btn-primary" id="copyEmail">Copy Email</button>
+            <a class="btn btn-secondary" href="mailto:shivulpr2004@gmail.com">Send Email</a>
+            <a class="btn btn-secondary" href="https://linkedin.com/in/shivaraj-y" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <div class="contact-meta">
+            <span>shivulpr2004@gmail.com</span>
+            <span>+91 63619 04219</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>&lt;Shivaraj/&gt;</span>
+      <p>© 2026 Shivaraj Y · HTML · CSS · JavaScript</p>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <div class="modal" id="projectModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close-modal aria-label="Close">×</button>
+      <span class="project-tag" id="modalCategory"></span>
+      <h3 id="modalTitle"></h3>
+      <p id="modalDetails"></p>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">Email copied!</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
